@@ -200,3 +200,11 @@
     setTimeout(()=>{ sp.style.display='none'; }, 600);
   }
   fr.addEventListener('load', ()=> setTimeout(done, 500));
+  setTimeout(()=>{ if(!fr.classList.contains('show')) done(); }, 10000);
+</script>
+</body>
+</html>
+    sp.classList.add('hide');
+    setTimeout(()=>{ sp.style.display='none'; }, 600);
+  }
+  fr.addEventListener('load', ()=> setTimeout(done, 500));
